@@ -3,7 +3,7 @@ from sage.calculus.var import var
 from sage.functions.log import exp, ln
 from sage.modules.free_module_element import vector
 
-class WeightsManifold:
+class WeightManifold:
     def __init__(self, g):
         if (type(g) != Graph):
             raise Error("g must be a graph")
